@@ -3,7 +3,7 @@
 use \SingleResponsabilityPrinciple\FixPrinciple\Logger;
 use \SingleResponsabilityPrinciple\FixPrinciple\User;
 
-//instanciate a logger object
+//instantiate a logger object
 $logger = new Logger();
 
 //use dependency injection
