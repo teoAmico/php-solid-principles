@@ -1,6 +1,6 @@
 <?php
 
-class PaypalManager {
+class PaymentManager {
     protected $paypal;
 
     public function __constructor(PaypallIpn $paypal){

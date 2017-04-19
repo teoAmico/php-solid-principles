@@ -5,6 +5,6 @@
 
  $paypalIpn = new PaypalIpn();
 
- $paypalManager = new PaypalManager($paypalIpn);
+ $paypalManager = new PaymentManager($paypalIpn);
 
  $paypalManager->process();

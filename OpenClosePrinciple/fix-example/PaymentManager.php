@@ -1,6 +1,6 @@
 <?php
 
-class PaypalManager {
+class PaymentManager {
     protected $paymentMethod;
 
     public function __constructor(PaymentMethodInterface $paymentMethod){
